@@ -33,7 +33,7 @@ function UI.GetProfitLines(recipe)
       table.insert(lines, {
         key = "tooltipProfit",
         label = "Profit",
-        text = UI.ProfitColor(result.profit):WrapTextInColorCode(Pricing.FormatMoney(result.profit)),
+        text = UI.ProfitColor(result.profit):WrapTextInColorCode(Pricing.FormatMoney(result.profit) .. (#result.missing > 0 and "?" or "")),
       })
     end
   end
