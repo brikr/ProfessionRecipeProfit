@@ -1,0 +1,19 @@
+## Interface: 16001
+## Title: Profession Recipe Profit
+## Notes: Shows crafting profit for profession recipes using Auctionator prices.
+## Author: Brik
+## Version: @project-version@
+## Category: Professions
+## X-Category: Professions
+## Dependencies: Auctionator
+## SavedVariables: ProfessionRecipeProfitDB
+## IconTexture: Interface\Icons\INV_Misc_Coin_01
+
+Core.lua
+Options.lua
+Pricing.lua
+Recipes.lua
+UI\Common.lua
+UI\Professions.lua
+UI\Trainer.lua
+UI\RecipeItemTooltip.lua

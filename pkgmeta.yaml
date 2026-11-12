@@ -1,0 +1,8 @@
+package-as: ProfessionRecipeProfit
+
+enable-nolib-creation: no
+
+ignore:
+  - scripts
+  - README.md
+  - pkgmeta.yaml
